@@ -49,11 +49,13 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Character.cs" />
     <Compile Include="CollisionShape2D.cs" />
     <Compile Include="HUD.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Mob.cs" />
     <Compile Include="Player.cs" />
+    <Compile Include="player2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
