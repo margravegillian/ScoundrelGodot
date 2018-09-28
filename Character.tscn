@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scoundrel_assets/caveman.png" type="Texture" id=1]
+
+[node name="Character" type="Area2D" index="0"]
+
+position = Vector2( 30, 30 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="." index="0"]
+
+texture = ExtResource( 1 )
+centered = false
+vframes = 16
+hframes = 8
+_sections_unfolded = [ "Animation", "Offset" ]
+
+
